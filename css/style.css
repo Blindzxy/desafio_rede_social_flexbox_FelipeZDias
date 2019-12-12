@@ -1,0 +1,76 @@
+body{
+    background-color: #F2f2f2;
+    font-family: 'Raleway';
+}
+
+section {
+  background-color: #c8c5c5;
+  padding: 30px
+}
+.direito h2{
+    margin: 12px 0px;
+}
+.direito p{
+    margin: 0px 0px 6px 0px;
+}
+.janelaFichas{
+    display: flex;
+    flex-wrap: wrap;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    justify-content: space-evenly;
+}
+
+.janelaDados{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    border:  #ccc;
+    border-style: solid;
+    border-width: 1px;
+    margin: 20px 0px;
+    padding: 15px 0px 5px 0px;
+}
+
+.botao{
+    padding: 10px;
+    width: 100px;
+    margin: 6px 0px;
+    background-color: grey;
+    border-color: black;
+    color: white;
+    text-align: center;
+}
+.direito{
+    flex-direction: column;
+    display: flex;
+    width: 60%;
+}
+
+.esquerda{
+    flex-direction: column;
+    display: flex;
+    width: 30%;
+    /* align-items: center; */
+}
+.foto{
+    width: 150px;
+    margin:auto;
+}
+
+.midiasSociais{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center
+}
+
+.midia{
+    width: 30px;
+    padding: 5px;
+    margin-left: 5px
+}
